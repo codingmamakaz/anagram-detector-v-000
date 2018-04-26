@@ -10,9 +10,9 @@ class Anagram
     result = []
     if result.length == 0
       result
-    elsif result.split
-      result
-    end
+    # elsif result.split
+    #   result
+    # end
 
     array_of_words.each do |word|
       result = word if word.split(//).sort.join == sorted_word
