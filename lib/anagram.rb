@@ -7,7 +7,7 @@ class Anagram
 
   def match(array_of_words)
     sorted_word = word.split(//).sort.join
-    if result = []
+    if result.size = 0
       result
     elsif result.split
     end
@@ -15,7 +15,7 @@ class Anagram
     array_of_words.each do |word|
       result = word if word.split(//).sort.join == sorted_word
     end
-    
+
     result
   end
 
