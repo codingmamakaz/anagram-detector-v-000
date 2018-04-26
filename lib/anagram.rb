@@ -12,7 +12,7 @@ class Anagram
       result
     # elsif result.split
     #   result
-    # end
+    end
 
     array_of_words.each do |word|
       result = word if word.split(//).sort.join == sorted_word
