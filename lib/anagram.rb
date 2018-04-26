@@ -8,7 +8,7 @@ class Anagram
   def match(array_of_words)
     sorted_word = word.split(//).sort.join
     result = []
-    if result.size = 0
+    if result.length = 0
       result
     elsif result.split
     end
