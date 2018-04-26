@@ -11,11 +11,11 @@ class Anagram
       result
     elsif result.split
     end
-      
+
     array_of_words.each do |word|
       result = word if word.split(//).sort.join == sorted_word
     end
-    result = result.split
+    
     result
   end
 
