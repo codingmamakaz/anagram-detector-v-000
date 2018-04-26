@@ -11,6 +11,7 @@ class Anagram
     if result.length == 0
       result
     elsif result.split
+      result
     end
 
     array_of_words.each do |word|
