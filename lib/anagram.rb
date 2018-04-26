@@ -7,7 +7,11 @@ class Anagram
 
   def match(array_of_words)
     sorted_word = word.split(//).sort.join
-    result = []
+    if result = []
+      result
+    elsif result.split
+    end
+      
     array_of_words.each do |word|
       result = word if word.split(//).sort.join == sorted_word
     end
